@@ -1,0 +1,6 @@
+<div class="p-d-flex p-flex-row p-flex-wrap">
+  <app-customer
+    *ngFor="let customer of customers; trackBy: getCustomerKey"
+    [customer]="customer"
+  ></app-customer>
+</div>

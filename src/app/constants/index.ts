@@ -1,0 +1,81 @@
+import { Customer } from '../types';
+
+export const CUSTOMERS: Customer[] = [
+  {
+    id: 1,
+    company: 'Greenstore Financial',
+    manager: 'John Snow',
+    address: '123 Main St. Philadelphia, PA, 19147',
+    email: 'json@company.com',
+  },
+  {
+    id: 2,
+    company: 'Greenstore Financial',
+    manager: 'John Snow',
+    address: '123 Main St. Philadelphia, PA, 19147',
+    email: 'json@company.com',
+  },
+  {
+    id: 3,
+    company: 'Greenstore Financial',
+    manager: 'John Snow',
+    address: '123 Main St. Philadelphia, PA, 19147',
+    email: 'json@company.com',
+  },
+  {
+    id: 4,
+    company: 'Greenstore Financial',
+    manager: 'John Snow',
+    address: '123 Main St. Philadelphia, PA, 19147',
+    email: 'json@company.com',
+  },
+  {
+    id: 5,
+    company: 'Greenstore Financial',
+    manager: 'John Snow',
+    address: '123 Main St. Philadelphia, PA, 19147',
+    email: 'json@company.com',
+  },
+  {
+    id: 6,
+    company: 'Greenstore Financial',
+    manager: 'John Snow',
+    address: '123 Main St. Philadelphia, PA, 19147',
+    email: 'json@company.com',
+  },
+  {
+    id: 7,
+    company: 'Greenstore Financial',
+    manager: 'John Snow',
+    address: '123 Main St. Philadelphia, PA, 19147',
+    email: 'json@company.com',
+  },
+  {
+    id: 8,
+    company: 'Greenstore Financial',
+    manager: 'John Snow',
+    address: '123 Main St. Philadelphia, PA, 19147',
+    email: 'json@company.com',
+  },
+  {
+    id: 9,
+    company: 'Greenstore Financial',
+    manager: 'John Snow',
+    address: '123 Main St. Philadelphia, PA, 19147',
+    email: 'json@company.com',
+  },
+  {
+    id: 10,
+    company: 'Greenstore Financial',
+    manager: 'John Snow',
+    address: '123 Main St. Philadelphia, PA, 19147',
+    email: 'json@company.com',
+  },
+  {
+    id: 11,
+    company: 'Greenstore Financial',
+    manager: 'John Snow',
+    address: '123 Main St. Philadelphia, PA, 19147',
+    email: 'json@company.com',
+  },
+];
