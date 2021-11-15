@@ -1,13 +1,11 @@
-<div>
-  <div class="p-d-flex p-flex-column">
-    <div class="p-d-flex">
-      <i class="pi pi-user"></i>
-      <div>
-        <p class="title">{{ customer?.company }}</p>
-        <p>{{ customer?.manager }}</p>
-      </div>
+<div class="card p-3 mb-5" [style.border-top]="'5px solid '+ customer?.color">
+  <div class="d-flex mb-1">
+    <i class="pi pi-user m-2" style="font-size: 2rem"></i>
+    <div class="d-flex flex-column">
+      <p class="title mb-0">{{ customer?.company }}</p>
+      <p class="mb-0 text-muted">{{ customer?.manager }}</p>
     </div>
-    <p>{{ customer?.address }}</p>
-    <p>{{ customer?.email }}</p>
   </div>
+  <p class="mb-0 h6">{{ customer?.address }}</p>
+  <p class="mb-0 h6">{{ customer?.email }}</p>
 </div>

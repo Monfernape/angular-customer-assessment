@@ -4,4 +4,5 @@ export type Customer = {
   manager: string;
   address: string;
   email: string;
+  color: string
 };

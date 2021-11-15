@@ -7,6 +7,7 @@ export const CUSTOMERS: Customer[] = [
     manager: 'John Snow',
     address: '123 Main St. Philadelphia, PA, 19147',
     email: 'json@company.com',
+    color: 'green'
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const CUSTOMERS: Customer[] = [
     manager: 'John Snow',
     address: '123 Main St. Philadelphia, PA, 19147',
     email: 'json@company.com',
+    color: 'blue'
   },
   {
     id: 3,
@@ -21,6 +23,7 @@ export const CUSTOMERS: Customer[] = [
     manager: 'John Snow',
     address: '123 Main St. Philadelphia, PA, 19147',
     email: 'json@company.com',
+    color: 'aqua'
   },
   {
     id: 4,
@@ -28,6 +31,7 @@ export const CUSTOMERS: Customer[] = [
     manager: 'John Snow',
     address: '123 Main St. Philadelphia, PA, 19147',
     email: 'json@company.com',
+    color: 'yellow'
   },
   {
     id: 5,
@@ -35,6 +39,7 @@ export const CUSTOMERS: Customer[] = [
     manager: 'John Snow',
     address: '123 Main St. Philadelphia, PA, 19147',
     email: 'json@company.com',
+    color: 'pink'
   },
   {
     id: 6,
@@ -42,6 +47,7 @@ export const CUSTOMERS: Customer[] = [
     manager: 'John Snow',
     address: '123 Main St. Philadelphia, PA, 19147',
     email: 'json@company.com',
+    color: 'green'
   },
   {
     id: 7,
@@ -49,6 +55,7 @@ export const CUSTOMERS: Customer[] = [
     manager: 'John Snow',
     address: '123 Main St. Philadelphia, PA, 19147',
     email: 'json@company.com',
+    color: 'teal'
   },
   {
     id: 8,
@@ -56,6 +63,7 @@ export const CUSTOMERS: Customer[] = [
     manager: 'John Snow',
     address: '123 Main St. Philadelphia, PA, 19147',
     email: 'json@company.com',
+    color: 'yellow'
   },
   {
     id: 9,
@@ -63,6 +71,7 @@ export const CUSTOMERS: Customer[] = [
     manager: 'John Snow',
     address: '123 Main St. Philadelphia, PA, 19147',
     email: 'json@company.com',
+    color: 'green'
   },
   {
     id: 10,
@@ -70,6 +79,7 @@ export const CUSTOMERS: Customer[] = [
     manager: 'John Snow',
     address: '123 Main St. Philadelphia, PA, 19147',
     email: 'json@company.com',
+    color: 'grey'
   },
   {
     id: 11,
@@ -77,5 +87,6 @@ export const CUSTOMERS: Customer[] = [
     manager: 'John Snow',
     address: '123 Main St. Philadelphia, PA, 19147',
     email: 'json@company.com',
+    color: 'khaki'
   },
 ];
