@@ -17,7 +17,7 @@
 </div>
   <app-customer
     class="col-md-4"
-    *ngFor="let customer of customers; trackBy: getCustomerKey"
+    *ngFor="let customer of customers | async; trackBy: getCustomerKey"
     [customer]="customer"
   ></app-customer>
 </div>
