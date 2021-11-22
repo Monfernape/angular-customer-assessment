@@ -8,9 +8,8 @@ describe('HeaderComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HeaderComponent ]
-    })
-    .compileComponents();
+      declarations: [HeaderComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {
@@ -21,5 +20,20 @@ describe('HeaderComponent', () => {
 
   it('should create', () => {
     expect(component).toBeTruthy();
+  });
+
+  it(`should have as search input empty`, () => {
+    const fixture = TestBed.createComponent(HeaderComponent);
+    const header = fixture.componentInstance;
+    expect(header.search).toEqual('');
+  });
+
+  it('should render header title', () => {
+    const fixture = TestBed.createComponent(HeaderComponent);
+    fixture.detectChanges();
+    const compiled = fixture.nativeElement as HTMLElement;
+    expect(compiled.getElementsByTagName('h2')[0].textContent).toContain(
+      'Create A New Customer Or Select An Existing One'
+    );
   });
 });

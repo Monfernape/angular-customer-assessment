@@ -1,20 +1,10 @@
 <div class="d-flex flex-row flex-wrap row">
-  <div
-    class="
-      d-flex
-      px-3
-      mb-5
-      col-md-4
-     align-items-stretch 
-    "
-  >
-  <div class="d-flex card
-  align-items-center
-  justify-content-center w-100 py-5">
-  <i class="pi pi-plus-circle" style="font-size: 2rem"></i>
-  <p class="mb-0">Create new customer</p>
-</div>
-</div>
+  <div class="d-flex px-3 mb-5 col-md-4 align-items-stretch">
+    <div class="d-flex card align-items-center justify-content-center w-100 py-5">
+      <i class="pi pi-plus-circle" style="font-size: 2rem"></i>
+      <p class="mb-0">Create new customer</p>
+    </div>
+  </div>
   <app-customer
     class="col-md-4"
     *ngFor="let customer of customers | async; trackBy: getCustomerKey"
