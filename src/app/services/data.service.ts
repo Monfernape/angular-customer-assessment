@@ -1,15 +1,14 @@
 import { Injectable } from '@angular/core';
-import { CUSTOMERS } from "../constants"
-import { of } from "rxjs"
+import { CUSTOMERS } from '../constants';
+import { of } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class DataService {
-  customers = of(CUSTOMERS);
-  constructor() { }
+  constructor() {}
 
-  getCustomers(){
-    return this.customers;
+  getCustomers() {
+    return of(CUSTOMERS);
   }
 }

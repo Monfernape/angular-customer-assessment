@@ -7,7 +7,7 @@ import { Customer } from 'src/app/types';
   styleUrls: ['./customer.component.css'],
 })
 export class CustomerComponent implements OnInit {
-  @Input() customer: Customer | null = null;
+  @Input() customer!: Customer;
 
   constructor() {}
 
