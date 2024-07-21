@@ -1,26 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Observable } from 'rxjs';
 import { Customer } from 'src/app/types';
-import { DataService } from "../../services/data.service"
+import { DataService } from '../../services/data.service';
 
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css']
+  styleUrls: ['./content.component.css'],
 })
-export class ContentComponent implements OnInit {
-  public customers: Customer[] = [];
-  private service: DataService;
+export class ContentComponent {
+  public customers: Observable<Customer[]> = this.service.getCustomers();
 
-  constructor(service: DataService) {
-    this.service = service;
-   }
+  constructor(private service: DataService) {}
 
-  ngOnInit(): void {
-    this.service.getCustomers().subscribe(customers => this.customers = customers);
+  getCustomerKey(index: number, item: Customer) {
+    return item.id;
   }
-
-  getCustomerKey(index: number, item: Customer){
-    return item.id
-  }
-
 }
